@@ -7,3 +7,26 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+require 'faker'
+
+Article.create!(title:Faker::Theater.adult_musical, content:Faker::Quote.yoda)
+puts "Article Added"
+Article.create!(title:Faker::Theater.adult_musical, content:Faker::Quote.yoda)
+puts "Article Added"
+Article.create!(title:Faker::Theater.adult_musical, content:Faker::Quote.yoda)
+puts "Article Added"
+Article.create!(title:Faker::Theater.adult_musical, content:Faker::Quote.yoda)
+puts "Article Added"
+Article.create!(title:Faker::Theater.adult_musical, content:Faker::Quote.yoda)
+puts "Article Added"
+Article.create!(title:Faker::Theater.adult_musical, content:Faker::Quote.yoda)
+puts "Article Added"
+Article.create!(title:Faker::Theater.adult_musical, content:Faker::Quote.yoda)
+puts "Article Added"
+Article.create!(title:Faker::Theater.adult_musical, content:Faker::Quote.yoda)
+puts "Article Added"
+Article.create!(title:Faker::Theater.adult_musical, content:Faker::Quote.yoda)
+puts "Article Added"
+Article.create!(title:Faker::Theater.adult_musical, content:Faker::Quote.yoda)
+puts "Article Added"
+puts "Done!"
