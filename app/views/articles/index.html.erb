@@ -1,11 +1,12 @@
-<h1>Wikinimous Homepage</h1>
-
-<% @articles.each do |article| %>
-<ul>
-  <li>
-  <h2><%= link_to article.title, article_path(article) %></h2>
-  <p><%= article.content %></p>
-  <hr>
-</li>
-</ul>
+<div id="article-list">
+  <h1 class="title">Article Pop</h1>
+  <% @articles.each do |article| %>
+    <ul>
+      <li>
+      <h2><%= link_to article.title, article_path(article) %></h2>
+      <p><%= article.content %></p>
+      </li>
+    </ul>
+    <hr>
 <% end %>
+</div>
